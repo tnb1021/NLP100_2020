@@ -5,4 +5,4 @@ ans_1 = ''.join(_list) #結合
 
 ans_2 = _str[::-1] #start: stop: step-1
 
-print(ans_1,ans_2)
+print(ans_1,ans_2) #desserts desserts
