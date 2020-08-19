@@ -4,6 +4,7 @@ import sys
 args = sys.argv
 df = pd.read_csv('data.txt',header=None,delimiter='\t')
 
+print(type(args[1])) # <class 'str'>
 n = int(args[1])
 
 print(df.head(n)) #n=2
