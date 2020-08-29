@@ -10,3 +10,6 @@ pattern = r'\[\[(ファイル|File):(.+?)\|'
 result = re.findall(pattern,target,re.MULTILINE)
 
 print(','.join(i[1] for i in result))
+'''
+Royal Coat of Arms of the United Kingdom.svg,Descriptio Prime Tabulae Europae.jpg,Lenepveu, Jeanne d'Arc au siège d'Orléans.jpg,
+'''
