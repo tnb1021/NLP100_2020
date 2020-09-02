@@ -18,15 +18,15 @@ for i,j in result.items():
     
     #内部リンク
     pattern = r'\[\[(.+\|)?(.+?)\]\]'
-    match = re.sub(pattern,'\2',j)
+    match = re.sub(pattern,'\2',match)
     
     #外部リンク
     pattern = r'\[\[(.+\|)?(.+?)\]\]'
-    match = re.sub(pattern,'\2',j)
+    match = re.sub(pattern,'\2',match)
 
     #htmlタグ
     pattern = r'<.+?>'
-    match = re.sub(pattern,'',j)
+    match = re.sub(pattern,'',match)
 
     result_s[i] = match
 print(result_s)
