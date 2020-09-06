@@ -15,3 +15,15 @@ for target in results:
 
 for i in range(10):
     print(list(ans)[i])
+'''
+ぶら下がる
+力む
+号する
+滑らす
+かき合せる
+翳す
+伸す
+遂げる
+数える
+なくなる
+'''
