@@ -17,3 +17,15 @@ for i in range(2,len(results)):
 for i in range(10):
     print(list(ans)[i])
 
+'''
+以上の径路
+妙齢の女子
+リーシャスの援
+主人の頭
+自己の何
+僕の翻訳
+智慧の発達
+時代の友達
+同様の刑罰
+博多の帯
+'''
