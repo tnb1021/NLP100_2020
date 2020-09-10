@@ -20,6 +20,5 @@ ans = sorted(ans.items(), key=lambda x:x[1], reverse=True)
 
 label = [i[0] for i in ans[:10]]
 y = [i[1] for i in ans[:10]]
-x =  range(len(y))
-plt.bar(x,y,tick_label=label)
+plt.bar(label,y)
 plt.show()
